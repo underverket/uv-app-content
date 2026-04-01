@@ -1,0 +1,243 @@
+{
+  "version": "2025-01-01",
+  "categories": [
+    {
+      "id": "general",
+      "sortOrder": 0,
+      "title": { "en": "General", "sv": "Allmänt" }
+    },
+    {
+      "id": "activity",
+      "sortOrder": 1,
+      "title": { "en": "Activity", "sv": "Aktivitet" }
+    },
+    {
+      "id": "event",
+      "sortOrder": 2,
+      "title": { "en": "Events", "sv": "Evenemang" }
+    }
+  ],
+  "items": [
+    {
+      "id": "first_launch",
+      "categoryId": "general",
+      "sortOrder": -1,
+      "extra": { "metric": "memberDays", "threshold": 0 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "Welcome!" },
+          "sv": { "value": "Välkommen!" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Launch the app for the first time" },
+          "sv": { "value": "Starta appen för första gången" }
+        }
+      ]
+    },
+    {
+      "id": "member_days_1",
+      "categoryId": "general",
+      "sortOrder": 0,
+      "extra": { "metric": "memberDays", "threshold": 1 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "1 day as member" },
+          "sv": { "value": "1 dag som medlem" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Be a member for at least 1 day" },
+          "sv": { "value": "Var medlem i minst 1 dag" }
+        }
+      ]
+    },
+    {
+      "id": "member_days_7",
+      "categoryId": "general",
+      "sortOrder": 1,
+      "extra": { "metric": "memberDays", "threshold": 7 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "7 days as member" },
+          "sv": { "value": "7 dagar som medlem" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Be a member for at least 7 days" },
+          "sv": { "value": "Var medlem i minst 7 dagar" }
+        }
+      ]
+    },
+    {
+      "id": "member_days_30",
+      "categoryId": "general",
+      "sortOrder": 2,
+      "extra": { "metric": "memberDays", "threshold": 30 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "30 days as member" },
+          "sv": { "value": "30 dagar som medlem" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Be a member for at least 30 days" },
+          "sv": { "value": "Var medlem i minst 30 dagar" }
+        }
+      ]
+    },
+    {
+      "id": "member_days_180",
+      "categoryId": "general",
+      "sortOrder": 3,
+      "extra": { "metric": "memberDays", "threshold": 180 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "180 days as member" },
+          "sv": { "value": "180 dagar som medlem" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Be a member for at least 180 days" },
+          "sv": { "value": "Var medlem i minst 180 dagar" }
+        }
+      ]
+    },
+    {
+      "id": "office_entries_10",
+      "categoryId": "activity",
+      "sortOrder": 0,
+      "extra": { "metric": "officeEntries", "threshold": 10 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "10 office visits" },
+          "sv": { "value": "10 kontorsbesök" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Visit the office 10 times" },
+          "sv": { "value": "Besök kontoret 10 gånger" }
+        }
+      ]
+    },
+    {
+      "id": "office_entries_100",
+      "categoryId": "activity",
+      "sortOrder": 1,
+      "extra": { "metric": "officeEntries", "threshold": 100 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "100 office visits" },
+          "sv": { "value": "100 kontorsbesök" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Visit the office 100 times" },
+          "sv": { "value": "Besök kontoret 100 gånger" }
+        }
+      ]
+    },
+    {
+      "id": "office_entries_200",
+      "categoryId": "activity",
+      "sortOrder": 2,
+      "extra": { "metric": "officeEntries", "threshold": 200 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "200 office visits" },
+          "sv": { "value": "200 kontorsbesök" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Visit the office 200 times" },
+          "sv": { "value": "Besök kontoret 200 gånger" }
+        }
+      ]
+    },
+    {
+      "id": "events_attended_1",
+      "categoryId": "event",
+      "sortOrder": 0,
+      "extra": { "metric": "eventsAttended", "threshold": 1 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "1 event attended" },
+          "sv": { "value": "1 evenemang besökt" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Attend 1 event" },
+          "sv": { "value": "Delta i 1 evenemang" }
+        }
+      ]
+    },
+    {
+      "id": "events_attended_5",
+      "categoryId": "event",
+      "sortOrder": 1,
+      "extra": { "metric": "eventsAttended", "threshold": 5 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "5 events attended" },
+          "sv": { "value": "5 evenemang besökta" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Attend 5 events" },
+          "sv": { "value": "Delta i 5 evenemang" }
+        }
+      ]
+    },
+    {
+      "id": "events_attended_10",
+      "categoryId": "event",
+      "sortOrder": 2,
+      "isHidden": true,
+      "extra": { "metric": "eventsAttended", "threshold": 10 },
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "10 events attended" },
+          "sv": { "value": "10 evenemang besökta" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": { "value": "Attend 10 events" },
+          "sv": { "value": "Delta i 10 evenemang" }
+        }
+      ]
+    }
+  ]
+}
