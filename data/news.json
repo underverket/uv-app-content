@@ -1,6 +1,30 @@
 {
-  "version": "2025-01-06",
+  "version": "2025-01-07",
   "items": [
+    {
+      "id": "event",
+      "sortOrder": 0,
+      "date": "2025-01-07",
+      "fields": [
+        {
+          "rank": 1,
+          "type": "heading",
+          "en": { "value": "newApiCall" },
+          "sv": { "value": "newApiCall!" }
+        },
+        {
+          "rank": 2,
+          "type": "paragraph",
+          "en": {
+            "value": "newApiCall."
+          },
+          "sv": {
+            "value": "newApiCall"
+          }
+        }
+      ],
+      "extra": {}
+    },
     {
       "id": "event",
       "sortOrder": 0,
